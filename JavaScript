@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="wrt">
+    </p>
+    <button id="clc">Click here</button>
+    <br />
+    <script>
+      document.write("Hello world!");
+      let cars = ["BMW", "Honda", "BBT", "KIA"];
+      document.write(cars);
+      document.write('\n');    //for space in js
+      // document.getElementById('wrt').innerHTML=bmw;
+
+      let bmw = cars[0];
+      document.write(bmw);
+      document.write("<br>");                //for brake line in js
+      document.write("<br>");
+
+      let len = cars.length;
+      document.write(len);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      let num = [1,2,3,4,5,6,7,8,9];
+      let mun = num.map(multiply);
+      function multiply(val) {
+        return val *2
+      }
+      document.write(mun);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      let nmu = num.filter(comp);
+      function comp(val) {
+        return val>5
+      }
+      document.write(nmu);
+
+      document.write("<br>");
+      document.write("<br>");
+      
+      let unm = num.filter(copm);
+      function copm(val) {
+        return val<=5
+      }
+      document.write(unm);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      let i;
+      for (let i = 1; i < 14; i++) {
+        document.write(i);
+        console.log(i);
+        if(i==11)
+        {
+          break;
+        }
+      }
+
+        document.write("<br>");
+        document.write("<br>");
+
+        
+      let a=1;
+      while (a<=15) {
+        document.write(a);
+        console.log(a);
+        a++
+      }
+
+      document.write("<br>");
+      document.write("<br>");
+      
+
+      let b=15;
+      do {
+        document.write(b);
+        b++
+        if (b==20) {
+          break;
+        }
+      } while (b<=25);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      var c = {name: 'abc', age: 21, stdy: 'cse'};
+      document.write(c.name, c.age, c.stdy);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      var c = new Object();
+      {c.name= 'ac', c.age= 22, c.stdy= 'cse'};
+      document.write(c.name, c.age, c.stdy);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      function stu(nam, umr, stud) {
+        this.nam = nam;
+        this.umr = umr;
+        this.stud = stud;
+      }
+      var stdnt = stu('chno', 23, 'cse');
+      document.write(this.nam, this.umr, this.stud);
+
+      document.write("<br>");
+      document.write("<br>");
+
+      let usr = {
+        name: 'gandu',
+        age: 23
+      };
+      function sayHi() {
+        alert("Hello!")
+      }
+      usr.message = sayHi;
+      document.getElementById('clc').onclick=usr.message;
+
+      
+      document.write("<br>");
+      document.write("<br>");
+      
+      full = true;
+      let bike = new Promise(function (resolve, reject) {
+        
+        if(full)
+          resolve()
+          
+        else
+          reject()
+      });
+
+      bike.then(function () {
+        document.write("tank is full ENJOY.")
+      }).catch(function(){
+        document.write("tank is not full dont be sad.")
+      })
+
+      
+      document.write("<br>");
+      document.write("<br>");
+
+      // let y = 499;
+      // if (y >= 500) {
+      //   document.write('enjoy')
+      // } 
+      // else {
+      //   document.write('dont be sad.')
+      // }
+
+  </script>
+  
+    </body>
+</html>
