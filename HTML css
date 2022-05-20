@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Nilkanth, pan, colddrink, colddrinks, cold-drink, cold-drinks, pipaliya, dhoraji, rajkot, padaliya, recharge, gas cylinder, bidi, cigarette, mavo, faki, soda, milk, dudh, chhas, ice-cream, icecream"
+    />
+    <title>Nilkanth Pan & Cold-drinks</title>
+    <!-- fonts selection https://fonts.google.com/ -->
+    <style>
+      /* CSS position Static(default), absolute(overlape, change position without gape), relative(position change with gape), fixed(position fix in browser window), sticky(position chipking at one place) */
+      body {
+        background-color: rgba(0, 0, 0, 0.837);
+        background: url("/4_Coca-Cola.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 2;
+      }
+      input,
+      textarea {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+      }
+      #mail {
+        width: 250px;
+      }
+      #pin {
+        width: 50px;
+      }
+      #nam {
+        width: 150px;
+      }
+      h2 {
+        text-align: center;
+        text-shadow: 2px 2px 2px rgb(160, 24, 24);
+      }
+      #con {
+        right: 40px;
+        bottom: 40px;
+        position: fixed;
+      }
+
+      #loc {
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+      }
+      #loc:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0);
+      }
+      #img {
+        float: right;
+        clear: both;
+      }
+      #nev {
+        border-style: calc();
+        border-radius: 50px;
+        color: rgb(253, 253, 253);
+        background-color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+      #nev li {
+        list-style: none;
+        float: right;
+        margin: 9px 20px;
+      }
+      .l:hover {
+        color: azure;
+      }
+      #nev li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      #nev li a:hover {
+        color: rgb(255, 128, 128);
+      }
+      #u {
+        overflow: auto;
+      }
+
+      #facility {
+        color: aliceblue;
+        font-family: "Orelega One", cursive;
+        list-style: none;
+        /* padding: 50px 400px 50px 400px; */
+        padding: 50px;
+        /* border-style: double; */
+        /* border-color: rgb(255, 0, 0); */
+        /* margin: 50px; */
+        margin: 34px;
+        clear: both;
+        text-align: left;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      }
+      #ibr {
+        list-style: none;
+        text-align: left;
+      }
+      #head {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 0, 0);
+        padding: 13px;
+        margin: auto;
+        height: 35px;
+        border-style: dashed;
+        border-width: auto;
+        border-radius: 17px;
+        border-color: rgb(255, 255, 0);
+      }
+      #bul {
+        text-align: left;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+      #join {
+        width: 500px;
+        border-style: dashed;
+        border-width: 2px;
+        border-color: white;
+        color: aliceblue;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-width: 5px;
+        margin: 5px;
+        padding: 25px;
+        box-shadow: 1px 1px 30px rgb(255, 255, 255);
+        /* box-shadow: 1px 1px rgb(255, 255, 255); */
+        /* animation-name: man;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+      }
+      @keyframes man {
+        from{
+          width: 450px;
+        }
+        to{
+          width: 500px;
+        } */
+      }
+      #sub {
+        float: right;
+        font-size: larger;
+        background-color: red;
+        /* background-color: rgb(0, 0, 0); */
+        /* transition-property: background-color; */
+        transition-duration: 2s;
+        
+        
+      }
+      #sub:hover {
+        color: rgb(255, 0, 0);
+        background-color: rgb(0, 0, 0);
+        transform: rotate(360deg);
+      }
+      #here {
+        font-size: 25px;
+      }
+      .btn {
+        color: aliceblue;
+        font-size: larger;
+        background-color: rgb(51, 2, 2);
+        border: none;
+      }
+      .btn:hover {
+        color: rgb(2, 105, 179);
+      }
+      .s {
+        text-align: center;
+        color: rgb(255, 0, 76);
+        
+      }
+      .s:hover {
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="head">Nilkanth Pan & Cold-Drinks</h2>
+
+    <img id="con" src="/WHATSAPP-LOGO.png" alt="Contact us" height="50" />
+    <!-- &nbsp; use for take space in sentance -->
+    <!-- HTML entities are here - https://dev.w3.org/html5/html-author/charref -->
+    <hr color="green" />
+    <header>
+      <nav id="nev">
+        <ul id="u">
+          <li class="l"><a href="a">Contact us</a></li>
+          <li class="l"><a href="a"> About us</a></li>
+          <li class="l"><a href="a">Gallery</a></li>
+          <li class="l"><a href="a">Home </a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <p id="bul">
+      <strong>
+        &raquo; Visit at our shop and get all item with online UPI payment
+        system.</strong
+      >
+    </p>
+    <a id="loc" href="https://goo.gl/maps/iXuCHLfNvDQRM9zi8"
+      >Click here to get our Location</a
+    ><br />
+    <!-- <img id="img" src="/shutterstock_1089082907.webp" alt="image" height="250"> -->
+    <!-- Unordered list use ul & for ordered list use ol -->
+    <ul id="facility">
+      <li>
+        New sim card, lost sim card, sim transfer, mobile & accessories are
+        available.
+      </li>
+      <li>Color print, xerox & lamination are available.</li>
+      <li>Gas cylinder book and get delivery here.</li>
+      <ul id="ibr">
+        <li>Indian(Pratipal & Mahindra Dhoraji)</li>
+        <li>Bharatgas(Happy home )</li>
+        <li>Reliance(From Rajkot)</li>
+      </ul>
+      <li>
+        Any prepaid, postpaid, DTH, broadband... etc recharges available here.
+      </li>
+      <li>Online payment and money transfer facility available.</li>
+      <li>Pan-Bidi-Tobako-Mava with premium supari.</li>
+      <li>Available Cold Cold-Drinks of Coca-Cola & VK(Upleta).</li>
+      <li>Available ice-cream of Rangoli.</li>
+      <li>Milk & butter milk also available of Mahi.</li>
+      <br />
+      <a class="btn" id="here" href="https://goo.gl/maps/iXuCHLfNvDQRM9zi8"
+        >Many more at here</a
+      >
+    </ul>
+    <!-- <ol>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+    </ol> -->
+
+    <!-- Table creating video in 7 -->
+
+    <!-- Customer subscription -->
+    <span class="s">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Please fill the details below to join with us.</span
+    >
+    <br /><br />
+    <form action="backend.php">
+      <div id="join">
+        Name: <input type="text" id="nam" /><br /><br />
+        Email: <input type="email" name="customer mail" id="mail" /><br /><br />
+        Address: <br />
+        <textarea name="address" id="" cols="50" rows="2"></textarea
+        ><br /><br />
+        Pin: <input type="number" name="pin" id="pin" /><br /><br />
+        Are you visited?
+        <input type="checkbox" name="visited" id="" /><br /><br />
+        <button class="btn">Reset</button>
+        <input id="sub" type="submit" value="Submit" />
+      </div>
+    </form>
+    <script>
+      var a = 'manav';
+      var b = 'chano';
+      console.log(a + ' is ' + b);
+      let go = alert('This shop stand only at Pipaliya, We have not any branch.');
+      let city = prompt("where are you from?");
+      
+    </script>
+  </body>
+</html>
